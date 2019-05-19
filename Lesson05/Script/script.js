@@ -1,22 +1,26 @@
-const bankTasks = 'Q';
+let input = prompt ("Bank Options: Enter the letter for the selected command: Q to Quit, W to Withdraw, D to Deposit, B to check balance. ");
+
+
+const bankTasks = '';
 
 function ATM(options) {
   switch (options) {
     case 'Q': {
-      return 'Quit Program';
+      return 'Are you sure you want to quit?';
       break;
-    }
+      }
     case 'W': {
-      return 'Withdrawl';
+      return 'How much would you like to take out?';
       break;
-    }
+      }
     case 'D': {
-      return 'Deposit';
+      return 'Enter the amount of the deposit';
       break;
-    }
+      }
     case 'B': {
-      return 'Balance';
+      return 'Balance is...';
       break;
+      }
     }
   }
 
