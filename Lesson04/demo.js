@@ -1,7 +1,9 @@
-let input = prompt ('Enter a number');
-let numberToAdd=1;
-let result= 0;
+function math() {
+  let input = prompt ('Enter a number');
+  let numberToAdd=7;
+  let result= 0;
 
-result = numberToAdd**2;
+  result = numberToAdd + Number(input);
 
-alert(result);
+  alert(result);
+}
