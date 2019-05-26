@@ -1,7 +1,5 @@
-let disney= ['A', 'dream', 'is', 'a', 'wish', 'your', 'heart', 'makes.'];
+let arr = [];
 
-const quote = disney.join(' ');
-console.log(disney);
+arr= ['A', 'dream', 'is', 'a', 'wish', 'your', 'heart', 'makes.'];
 
-console.log(quote);
-console.log('wish'); 
+console.log (arr[3]);
