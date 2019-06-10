@@ -19,7 +19,6 @@ function ATM(options) {
     }
       case 'w': {
         return Withdraw ();
-
         break;
         }
     case 'D': {
@@ -39,17 +38,17 @@ function ATM(options) {
       }
     }
   }
-  function Withdraw () {
+  function Withdraw() {
    prompt ('How much would you like to take out?');
-   return 'balance - Withdraw ('');
+   return 'balance - Withdraw ('')';
   }
 
-  function Deposit () {
+  function Deposit() {
    prompt ('How much would you like to deposit?');
    return 'balance - Deposit ('')';
   }
 
-  function Deposit () {
+  function Balance() {
   prompt ('Here is your balance');
    return 'balance';
   }
